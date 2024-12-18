@@ -1,0 +1,129 @@
+{
+  "basics": {
+    "name": "Sayeed Mahmood Evrenos",
+    "nickname": "evrenos",
+    "label": "Open-source and Linux enthusiast | Frontend  Developer",
+    "summary": "Privacy-focused developer passionate about building open-source solutions while exploring privacy, security, and web development. Dedicated to continuous learning and honing skills in tech to drive meaningful contributions.",
+    "location": {
+      "city": "Chattogram",
+      "countryCode": "BD",
+      "region": "Bangladesh"
+    },
+    "socials": [
+      {
+        "network": "email",
+        "url": "mailto:evrnos@proton.me"
+      },
+      {
+        "network": "telegram",
+        "url": "https://t.me/evren_os"
+      },
+      {
+        "network": "github",
+        "url": "https://github.com/Evren-os"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Self-Learning Journey",
+      "position": "Frontend Developer",
+      "location_type": "Independent",
+      "location": "Chattogram, Bangladesh",
+      "startDate": "2023-11-01",
+      "endDate": null,
+      "summary": "Dedicated to self-guided learning in web development, with a focus on modern web technologies. Passionate about honing practical skills through personal projects and open-source contributions.",
+      "responsibilities": [
+        "Diving into web development through self-learning",
+        "Creating personal projects to sharpen and level up coding skills",
+        "Exploring open-source tech and the FOSS ecosystem"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Chattogram Govt. City College",
+      "url": null,
+      "area": "Higher Secondary Certificate (HSC)",
+      "studyType": "College",
+      "startDate": "2023-02-01",
+      "endDate": "2024-10-15",
+      "summary": "Completed Higher Secondary Certificate with an A+ grade."
+    },
+    {
+      "institution": "Chattogram Collegiate School",
+      "url": null,
+      "area": "Secondary School Certificate (SSC)",
+      "studyType": "School",
+      "startDate": "2020-03-01",
+      "endDate": "2022-09-20",
+      "summary": "Graduated with a golden A+ grade."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Personal Learning Milestone",
+      "date": "2023-11-01",
+      "awarder": "Self-Development"
+    }
+  ],
+  "skills": {
+    "programming_languages": ["JavaScript"],
+    "frameworks": ["React", "Next.js"],
+    "databases": ["MySQL", "PostgreSQL", "Redis"],
+    "interests": ["Go", "Rust", "C", "FOSS", "Privacy"],
+    "tools": ["Git", "VSCodium", "Arch Linux"]
+  },
+  "projects": [
+    {
+      "name": "Rustor",
+      "description": "Blazing Fast Fetch Tool",
+      "url": "https://github.com/Evren-os/rustor",
+      "highlights": [
+        "Built a high-performance fetch tool using Rust",
+        "Showcased expertise in systems programming and performance optimization"
+      ],
+      "technologies": ["Rust"]
+    },
+    {
+      "name": "Hyprblaze",
+      "description": "Customized Hyprland Dotfiles for Arch Linux",
+      "url": "https://github.com/Evren-os/hyprblaze",
+      "highlights": [
+        "Crafted a customized hyprland setup with advanced configurations",
+        "Implemented Nvidia DKMS auto-detection and optimized system performance"
+      ],
+      "technologies": ["Linux", "Shell", "Hyprland"]
+    },
+    {
+      "name": "Tome App Clone",
+      "description": "Web Application Clone",
+      "url": "https://github.com/Evren-os/Tome-App-Clone",
+      "highlights": [
+        "Recreated the Tome App’s design using Tailwind CSS",
+        "Honed front-end development skills and mastered responsive design"
+      ],
+      "technologies": ["HTML", "CSS", "Tailwind"]
+    },
+    {
+      "name": "Weather App",
+      "description": "Minimal Weather Tracking Application",
+      "url": "https://github.com/Evren-os/Weather-App",
+      "highlights": [
+        "Built a weather app using vanilla JavaScript",
+        "Integrated OpenWeather API for real-time weather data"
+      ],
+      "technologies": ["JavaScript", "OpenWeather API"]
+    },
+    {
+      "name": "Guess The Hidden Number",
+      "description": "Interactive JavaScript Game",
+      "url": "https://github.com/Evren-os/Guess-The-Hidden-Number",
+      "highlights": [
+        "Created an interactive number guessing game",
+        "Practiced JavaScript fundamentals and user interaction"
+      ],
+      "technologies": ["JavaScript", "HTML", "CSS"]
+    }
+  ]
+}
