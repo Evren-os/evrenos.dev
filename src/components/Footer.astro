@@ -17,8 +17,9 @@ import { SITE } from "@/consts";
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("current-year").textContent = new Date()
-      .getFullYear()
-      .toString();
+    const yearElement = document.getElementById("current-year");
+    if (yearElement) {
+      yearElement.textContent = new Date().getFullYear().toString();
+    }
   });
 </script>
