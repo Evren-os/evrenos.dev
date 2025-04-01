@@ -2,8 +2,8 @@
   "basics": {
     "name": "Sayeed Mahmood Evrenos",
     "nickname": "evrenos",
-    "label": "Open-source and Linux enthusiast | Frontend  Developer",
-    "summary": "Privacy-focused developer passionate about building open-source solutions while exploring privacy, security, and web development. Dedicated to continuous learning and honing skills in tech to drive meaningful contributions.",
+    "label": "Passionate about open-source and Linux, crafting seamless front-end experience",
+    "summary": "Building privacy-first, open-source solutions. Constantly exploring web dev, security, and tech to make a real impact.",
     "location": {
       "city": "Chattogram",
       "countryCode": "BD",
@@ -32,11 +32,11 @@
       "location": "Chattogram, Bangladesh",
       "startDate": "2023-11-01",
       "endDate": null,
-      "summary": "Dedicated to self-guided learning in web development, with a focus on modern web technologies. Passionate about honing practical skills through personal projects and open-source contributions.",
+      "summary": "Driven by curiosity, I learn and build with the latest web technologies, contributing to open-source along the way.",
       "responsibilities": [
-        "Diving into web development through self-learning",
-        "Creating personal projects to sharpen and level up coding skills",
-        "Exploring open-source tech and the FOSS ecosystem"
+        "Exploring web dev on my own terms, learning as I go",
+        "Building projects to push my coding skills further",
+        "Delving into the world of open-source and FOSS"
       ]
     }
   ],
@@ -80,28 +80,18 @@
       "description": "Blazing Fast Fetch Tool",
       "url": "https://github.com/Evren-os/rustor",
       "highlights": [
-        "Built a high-performance fetch tool using Rust",
-        "Showcased expertise in systems programming and performance optimization"
+        "Developed a high-speed fetch utility using Rust’s power",
+        "Highlighted my skills in crafting efficient systems and optimizing performance"
       ],
       "technologies": ["Rust"]
-    },
-    {
-      "name": "Hyprblaze",
-      "description": "Customized Hyprland Dotfiles for Arch Linux",
-      "url": "https://github.com/Evren-os/hyprblaze",
-      "highlights": [
-        "Crafted a customized hyprland setup with advanced configurations",
-        "Implemented Nvidia DKMS auto-detection and optimized system performance"
-      ],
-      "technologies": ["Linux", "Shell", "Hyprland"]
     },
     {
       "name": "Tome App Clone",
       "description": "Web Application Clone",
       "url": "https://github.com/Evren-os/Tome-App-Clone",
       "highlights": [
-        "Recreated the Tome App’s design using Tailwind CSS",
-        "Honed front-end development skills and mastered responsive design"
+        "Rebuilt Tome App’s sleek design with Tailwind CSS",
+        "Sharpened my front-end skills, nailing responsive design"
       ],
       "technologies": ["HTML", "CSS", "Tailwind"]
     },
@@ -110,20 +100,10 @@
       "description": "Minimal Weather Tracking Application",
       "url": "https://github.com/Evren-os/Weather-App",
       "highlights": [
-        "Built a weather app using vanilla JavaScript",
-        "Integrated OpenWeather API for real-time weather data"
+        "Coded a weather app from scratch with pure JavaScript",
+        "Leveraged OpenWeather API to bring real-time weather data to the app"
       ],
       "technologies": ["JavaScript", "OpenWeather API"]
-    },
-    {
-      "name": "Guess The Hidden Number",
-      "description": "Interactive JavaScript Game",
-      "url": "https://github.com/Evren-os/Guess-The-Hidden-Number",
-      "highlights": [
-        "Created an interactive number guessing game",
-        "Practiced JavaScript fundamentals and user interaction"
-      ],
-      "technologies": ["JavaScript", "HTML", "CSS"]
     }
   ]
 }
