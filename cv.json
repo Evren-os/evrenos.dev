@@ -2,8 +2,8 @@
   "basics": {
     "name": "Sayeed Mahmood Evrenos",
     "nickname": "evrenos",
-    "label": "Passionate about open-source and Linux, crafting seamless front-end experience",
-    "summary": "Building privacy-first, open-source solutions. Constantly exploring web dev, security, and tech to make a real impact.",
+    "label": "Open-source enthusiast and Linux advocate building intuitive front-end experiences",
+    "summary": "I create privacy-focused, open-source tools while diving deep into web development, security, and emerging technologies. Always learning, always building something meaningful.",
     "location": {
       "city": "Chattogram",
       "countryCode": "BD",
@@ -26,17 +26,16 @@
   },
   "work": [
     {
-      "name": "Self-Learning Journey",
-      "position": "Frontend Developer",
+      "name": "Raycast",
+      "position": "Alpha Tester",
       "location_type": "Independent",
       "location": "Chattogram, Bangladesh",
-      "startDate": "2023-11-01",
+      "startDate": "2025-02-28",
       "endDate": null,
-      "summary": "Driven by curiosity, I learn and build with the latest web technologies, contributing to open-source along the way.",
+      "summary": "Contributing to Raycast's Windows expansion as part of their exclusive Closed Alpha Program",
       "responsibilities": [
-        "Exploring web dev on my own terms, learning as I go",
-        "Building projects to push my coding skills further",
-        "Delving into the world of open-source and FOSS"
+        "Rigorously testing Raycast's Alpha Windows build across various use cases and workflows",
+        "Providing detailed bug reports and user experience feedback to shape the final product"
       ]
     }
   ],
@@ -48,7 +47,7 @@
       "studyType": "College",
       "startDate": "2023-02-01",
       "endDate": "2024-10-15",
-      "summary": "Completed Higher Secondary Certificate with an A+ grade."
+      "summary": "Graduated with distinction, earning an A+ grade in Higher Secondary studies."
     },
     {
       "institution": "Chattogram Collegiate School",
@@ -57,7 +56,7 @@
       "studyType": "School",
       "startDate": "2020-03-01",
       "endDate": "2022-09-20",
-      "summary": "Graduated with a golden A+ grade."
+      "summary": "Achieved top academic performance with a golden A+ grade."
     }
   ],
   "awards": [
@@ -70,40 +69,29 @@
   "skills": {
     "programming_languages": ["JavaScript"],
     "frameworks": ["React", "Next.js"],
-    "databases": ["MySQL", "PostgreSQL", "Redis"],
-    "interests": ["Go", "Rust", "C", "FOSS", "Privacy"],
-    "tools": ["Git", "VSCodium", "Arch Linux"]
+    "interests": ["FOSS", "Privacy", "History"],
+    "tools": ["Git", "Fish", "Zed", "Ghostty", "CachyOS"]
   },
   "projects": [
     {
       "name": "Rustor",
-      "description": "Blazing Fast Fetch Tool",
+      "description": "Lightning-fast system information tool",
       "url": "https://github.com/Evren-os/rustor",
       "highlights": [
-        "Developed a high-speed fetch utility using Rust’s power",
-        "Highlighted my skills in crafting efficient systems and optimizing performance"
+        "Built a high-performance fetch utility leveraging Rust's memory safety and speed",
+        "Demonstrates expertise in systems programming and performance optimization"
       ],
       "technologies": ["Rust"]
     },
     {
-      "name": "Tome App Clone",
-      "description": "Web Application Clone",
-      "url": "https://github.com/Evren-os/Tome-App-Clone",
+      "name": "GoferShell",
+      "description": "Cross-shell CLI utilities written in Go",
+      "url": "https://github.com/Evren-os/GoferShell",
       "highlights": [
-        "Rebuilt Tome App’s sleek design with Tailwind CSS",
-        "Sharpened my front-end skills, nailing responsive design"
+        "Created versatile command-line tools that work seamlessly across different shells",
+        "Features include smart downloaders powered by aria2 and yt-dlp, plus an update checker for Arch Linux repos and AUR packages"
       ],
-      "technologies": ["HTML", "CSS", "Tailwind"]
-    },
-    {
-      "name": "Weather App",
-      "description": "Minimal Weather Tracking Application",
-      "url": "https://github.com/Evren-os/Weather-App",
-      "highlights": [
-        "Coded a weather app from scratch with pure JavaScript",
-        "Leveraged OpenWeather API to bring real-time weather data to the app"
-      ],
-      "technologies": ["JavaScript", "OpenWeather API"]
+      "technologies": ["Go"]
     }
   ]
 }
