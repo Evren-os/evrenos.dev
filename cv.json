@@ -74,14 +74,19 @@
   },
   "projects": [
     {
-      "name": "Rustor",
-      "description": "Lightning-fast system information tool",
-      "url": "https://github.com/Evren-os/rustor",
+      "name": "Zaviye",
+      "description": "Stateless AI chat application",
+      "url": "https://github.com/Evren-os/Zaviye",
       "highlights": [
-        "Built a high-performance fetch utility leveraging Rust's memory safety and speed",
-        "Demonstrates expertise in systems programming and performance optimization"
+        "Engineered a stateless AI chat application with distinct agents for practical and developer workflows",
+        "Demonstrates proficiency in full-stack TypeScript, prompt engineering, and building responsive UIs with React and Next.js"
       ],
-      "technologies": ["Rust"]
+      "technologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS"
+        ]
     },
     {
       "name": "GoferShell",
@@ -92,6 +97,16 @@
         "Features include smart downloaders powered by aria2 and yt-dlp, plus an update checker for Arch Linux repos and AUR packages"
       ],
       "technologies": ["Go"]
+    },
+    {
+      "name": "Rustor",
+      "description": "Lightning-fast system information tool",
+      "url": "https://github.com/Evren-os/rustor",
+      "highlights": [
+        "Built a high-performance fetch utility leveraging Rust's memory safety and speed",
+        "Demonstrates expertise in systems programming and performance optimization"
+      ],
+      "technologies": ["Rust"]
     }
   ]
 }
