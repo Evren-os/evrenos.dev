@@ -1,112 +1,108 @@
 {
-  "basics": {
-    "name": "Sayeed Mahmood Evrenos",
-    "nickname": "evrenos",
-    "label": "Open-source enthusiast and Linux advocate building intuitive front-end experiences",
-    "summary": "I create privacy-focused, open-source tools while diving deep into web development, security, and emerging technologies. Always learning, always building something meaningful.",
-    "location": {
-      "city": "Chattogram",
-      "countryCode": "BD",
-      "region": "Bangladesh"
-    },
-    "socials": [
-      {
-        "network": "email",
-        "url": "mailto:evrnos@proton.me"
-      },
-      {
-        "network": "telegram",
-        "url": "https://t.me/evren_os"
-      },
-      {
-        "network": "github",
-        "url": "https://github.com/Evren-os"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "Raycast",
-      "position": "Alpha Tester",
-      "location_type": "Independent",
-      "location": "Chattogram, Bangladesh",
-      "startDate": "2025-02-28",
-      "endDate": null,
-      "summary": "Contributing to Raycast's Windows expansion as part of their exclusive Closed Alpha Program",
-      "responsibilities": [
-        "Rigorously testing Raycast's Alpha Windows build across various use cases and workflows",
-        "Providing detailed bug reports and user experience feedback to shape the final product"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Chattogram Govt. City College",
-      "url": null,
-      "area": "Higher Secondary Certificate (HSC)",
-      "studyType": "College",
-      "startDate": "2023-02-01",
-      "endDate": "2024-10-15",
-      "summary": "Graduated with distinction, earning an A+ grade in Higher Secondary studies."
-    },
-    {
-      "institution": "Chattogram Collegiate School",
-      "url": null,
-      "area": "Secondary School Certificate (SSC)",
-      "studyType": "School",
-      "startDate": "2020-03-01",
-      "endDate": "2022-09-20",
-      "summary": "Achieved top academic performance with a golden A+ grade."
-    }
-  ],
-  "awards": [
-    {
-      "title": "Personal Learning Milestone",
-      "date": "2023-11-01",
-      "awarder": "Self-Development"
-    }
-  ],
-  "skills": {
-    "programming_languages": ["JavaScript"],
-    "frameworks": ["React", "Next.js"],
-    "interests": ["FOSS", "Privacy", "History"],
-    "tools": ["Git", "Fish", "Zed", "Ghostty", "CachyOS"]
-  },
-  "projects": [
-    {
-      "name": "Zaviye",
-      "description": "Stateless AI chat application",
-      "url": "https://github.com/Evren-os/Zaviye",
-      "highlights": [
-        "Engineered a stateless AI chat application with distinct agents for practical and developer workflows",
-        "Demonstrates proficiency in full-stack TypeScript, prompt engineering, and building responsive UIs with React and Next.js"
-      ],
-      "technologies": [
-          "Next.js",
-          "React",
-          "TypeScript",
-          "Tailwind CSS"
-        ]
-    },
-    {
-      "name": "GoferShell",
-      "description": "Cross-shell CLI utilities written in Go",
-      "url": "https://github.com/Evren-os/GoferShell",
-      "highlights": [
-        "Created versatile command-line tools that work seamlessly across different shells",
-        "Features include smart downloaders powered by aria2 and yt-dlp, plus an update checker for Arch Linux repos and AUR packages"
-      ],
-      "technologies": ["Go"]
-    },
-    {
-      "name": "Rustor",
-      "description": "Lightning-fast system information tool",
-      "url": "https://github.com/Evren-os/rustor",
-      "highlights": [
-        "Built a high-performance fetch utility leveraging Rust's memory safety and speed",
-        "Demonstrates expertise in systems programming and performance optimization"
-      ],
-      "technologies": ["Rust"]
-    }
-  ]
+	"basics": {
+		"name": "Sayeed Mahmood Evrenos",
+		"nickname": "evrenos",
+		"label": "Open-source enthusiast and Linux advocate building intuitive front-end experiences",
+		"summary": "I create privacy-focused, open-source tools while diving deep into web development, security, and emerging technologies. Always learning, always building something meaningful.",
+		"location": {
+			"city": "Chattogram",
+			"countryCode": "BD",
+			"region": "Bangladesh"
+		},
+		"socials": [
+			{
+				"network": "email",
+				"url": "mailto:evrnos@proton.me"
+			},
+			{
+				"network": "telegram",
+				"url": "https://t.me/evren_os"
+			},
+			{
+				"network": "github",
+				"url": "https://github.com/Evren-os"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Raycast",
+			"position": "Alpha Tester",
+			"location_type": "Independent",
+			"location": "Chattogram, Bangladesh",
+			"startDate": "2025-02-28",
+			"endDate": null,
+			"summary": "Contributing to Raycast's Windows expansion as part of their exclusive Closed Alpha Program",
+			"url": "https://raycast.com",
+			"responsibilities": [
+				"Rigorously testing Raycast's Alpha Windows build across various use cases and workflows",
+				"Providing detailed bug reports and user experience feedback to shape the final product"
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "Chattogram Govt. City College",
+			"url": null,
+			"area": "Higher Secondary Certificate (HSC)",
+			"studyType": "College",
+			"startDate": "2023-02-01",
+			"endDate": "2024-10-15",
+			"summary": "Graduated with distinction, earning an A+ grade in Higher Secondary studies."
+		},
+		{
+			"institution": "Chattogram Collegiate School",
+			"url": null,
+			"area": "Secondary School Certificate (SSC)",
+			"studyType": "School",
+			"startDate": "2020-03-01",
+			"endDate": "2022-09-20",
+			"summary": "Achieved top academic performance with a golden A+ grade."
+		}
+	],
+	"awards": [
+		{
+			"title": "Personal Learning Milestone",
+			"date": "2023-11-01",
+			"awarder": "Self-Development"
+		}
+	],
+	"skills": {
+		"programming_languages": ["JavaScript"],
+		"frameworks": ["React", "Next.js"],
+		"interests": ["FOSS", "Privacy", "History"],
+		"tools": ["Git", "Fish", "Zed", "Ghostty", "CachyOS"]
+	},
+	"projects": [
+		{
+			"name": "Zaviye",
+			"description": "Stateless AI chat application",
+			"url": "https://github.com/Evren-os/Zaviye",
+			"highlights": [
+				"Engineered a stateless AI chat application with distinct agents for practical and developer workflows",
+				"Demonstrates proficiency in full-stack TypeScript, prompt engineering, and building responsive UIs with React and Next.js"
+			],
+			"technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+		},
+		{
+			"name": "GoferShell",
+			"description": "Cross-shell CLI utilities written in Go",
+			"url": "https://github.com/Evren-os/GoferShell",
+			"highlights": [
+				"Created versatile command-line tools that work seamlessly across different shells",
+				"Features include smart downloaders powered by aria2 and yt-dlp, plus an update checker for Arch Linux repos and AUR packages"
+			],
+			"technologies": ["Go"]
+		},
+		{
+			"name": "Rustor",
+			"description": "Lightning-fast system information tool",
+			"url": "https://github.com/Evren-os/rustor",
+			"highlights": [
+				"Built a high-performance fetch utility leveraging Rust's memory safety and speed",
+				"Demonstrates expertise in systems programming and performance optimization"
+			],
+			"technologies": ["Rust"]
+		}
+	]
 }
