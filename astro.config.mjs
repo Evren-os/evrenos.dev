@@ -5,6 +5,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://evrenos-dev.vercel.app/",
+  output: "static",
+  site: "https://<project>.pages.dev",
   integrations: [react(), tailwind(), icon()],
 });
