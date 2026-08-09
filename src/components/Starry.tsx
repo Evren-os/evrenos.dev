@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState, useCallback } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { type Container, type ISourceOptions } from "@tsparticles/engine";
+import Particles, { ParticlesProvider } from "@tsparticles/react";
+import type { Container, Engine, ISourceOptions } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
 import { motion, useAnimation } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -14,6 +14,10 @@ type ParticlesProps = {
   opacity?: number;
 };
 
+const particlesInit = async (engine: Engine): Promise<void> => {
+  await loadSlim(engine);
+};
+
 const Starry = ({
   className,
   minSize,
@@ -22,13 +26,10 @@ const Starry = ({
   particleDensity,
   opacity,
 }: ParticlesProps) => {
-  const [init, setInit] = useState(false);
   const [particleColor, setParticleColor] = useState("#000");
   const controls = useAnimation();
 
   useEffect(() => {
-    initParticlesEngine(loadSlim).then(() => setInit(true));
-
     const updateParticleColor = () => {
       const isDarkMode = document.documentElement.classList.contains("dark");
       setParticleColor(isDarkMode ? "#FFF" : "#000");
@@ -428,15 +429,17 @@ const Starry = ({
     [minSize, maxSize, speed, particleDensity, opacity, particleColor],
   );
 
-  return init ? (
-    <motion.div animate={controls} className={cn("opacity-0", className)}>
-      <Particles
-        id="tsparticles"
-        particlesLoaded={particlesLoaded}
-        options={options}
-      />
-    </motion.div>
-  ) : null;
+  return (
+    <ParticlesProvider init={particlesInit}>
+      <motion.div animate={controls} className={cn("opacity-0", className)}>
+        <Particles
+          id="tsparticles"
+          particlesLoaded={particlesLoaded}
+          options={options}
+        />
+      </motion.div>
+    </ParticlesProvider>
+  );
 };
 
 export default Starry;
